@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700" rel="stylesheet">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/waltograph" type="text/css"/>
+        
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="row">
+                    <img src="vendors/img/Walt%20Disney%20World%20Logo.png" alt="Walt Disney World Logo" class="logo">
+                    <ul class="main-nav">
+                        <li><a href="#flights">Flights</a></li>
+                        <li><a href="#meals">Meals</a></li>
+                        <li><a href="#resort">Resort</a></li>
+                        <li><a href="#fastpass">Fast Pass</a></li>
+                        <li><a href="https://disneyworld.disney.go.com/calendars/#">Park Hours</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="disney-text-box">
+                <h1>Welcome to Our Disney Trip Planning Site<br> Travel Dates November 16th - November 25th 2017</h1>
+                <a class="btn btn-full" href="https://disneyworld.disney.go.com/trip/my-vacation/">Pay for the Trip</a>
+                <a class="btn btn-full" href="https://disneyworld.disney.go.com/events-tours/magic-kingdom/mickeys-very-merry-christmas-party/">Book Very Merry</a>
+            </div>
+        </header>
+ 
+        <section class="section-flights js--section-features" id="flights">
+            <div class="row">
+                <img src="vendors/img/Southwest%20Airlines.png" alt="Southwest Airlines Logo" class="logo">
+                <h2>Planned Flights Dates:<br> Arrival November 16th<br> Departure November 25th</h2>
+                    <div class="col span-1-of-3 section-flights-button">
+                        <p id="demo1"></p>
+
+                        <script>
+                        // Set the date we're counting down to
+                        var countDownDate1 = new Date("May 18, 2017 00:00:00").getTime();
+
+                        // Update the count down every 1 second
+                        var x = setInterval(function() {
+
+                            // Get todays date and time
+                            var now = new Date().getTime();
+
+                            // Find the distance between now an the count down date
+                            var distance = countDownDate1 - now;
+
+                            // Time calculations for days, hours, minutes and seconds
+                            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                            // Output the result in an element with id="demo"
+                            document.getElementById("demo1").innerHTML = days + "d " + hours + "h "
+                            + minutes + "m " + seconds + "s ";
+
+                            // If the count down is over, write some text 
+                            if (distance < 0) {
+                                clearInterval(x);
+                                document.getElementById("demo1").innerHTML = "EXPIRED";
+                            }
+                        }, 1000);
+                        </script>
+                        <a class="btn btn-full" href="https://www.southwest.com/thmpg/flights-from-AUS-to-MCO.html">Book Flights</a>
+                    </div>
+            </div>
+                <!--<h2 class="flight-data">Booked Plane Flight Information:<br>(Austin) Departure Flight#:  Gate#: Time: <br>(Orlando) Departure Flight#: Gate#:  Time: </h2>-->
+            </div>
+        </section>
+        
+        <section class="section-meals" id="meals">
+            <div class="row">
+                <img src="vendors/img/Disney%20Dining%20Plan.png" alt="Disney Dining Plan Logo" class="logo">
+                <h2>Disney Deluxe Dining Plan:<br> -3 Sit Down Meals / day<br> -2 Snacks / day<br> -1 Refillable Cup Per Day</h2>
+                    <div class="col span-1-of-2 section-meals-button">
+                        <p id="demo2"></p>
+
+                        <script>
+                        // Set the date we're counting down to
+                        var countDownDate2 = new Date("May 20, 2017 00:00:00").getTime();
+
+                        // Update the count down every 1 second
+                        var x = setInterval(function() {
+
+                            // Get todays date and time
+                            var now = new Date().getTime();
+
+                            // Find the distance between now an the count down date
+                            var distance = countDownDate2 - now;
+
+                            // Time calculations for days, hours, minutes and seconds
+                            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                            // Output the result in an element with id="demo"
+                            document.getElementById("demo2").innerHTML = days + "d " + hours + "h "
+                            + minutes + "m " + seconds + "s ";
+
+                            // If the count down is over, write some text 
+                            if (distance < 0) {
+                                clearInterval(x);
+                                document.getElementById("demo2").innerHTML = "EXPIRED";
+                            }
+                        }, 1000);
+                        </script>
+                        <a class="btn btn-full" href="https://disneyworld.disney.go.com/dining/#/reservations-accepted/?searchDate=2017-11-16">Book Meals</a>
+                        <a class="btn btn-full" href="https://secure.cdn1.wdpromedia.com/media/wdpro-assets/cart/resort-add-ons/dining-plans/2017-disney_deluxe_dining_plan_0117.pdf">Meal Information</a>
+        <!--Dining Location Information: DisneyWorld.com/DiningPlanLocations2017-->
+                    </div>
+            </div>      
+        </section>
+        
+        <section class="section-resort" id="resort">
+            <div class="row">
+                <img src="vendors/img/Disney%20Port%20Orleans.png" alt="Disney Port Orleans Logo" class="logo">
+                <h2>The Port Orleans Resort - Riverside<br> Planned Resort Dates:<br> Checkin November 26th (after 3pm)<br> Checkout November 20th (by 12pm)</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                        <div class="section-resort-button">
+                        <p id="demo3"></p>
+
+                        <script>
+                        // Set the date we're counting down to
+                        var countDownDate3 = new Date("Sep 16, 2017 00:00:00").getTime();
+
+                        // Update the count down every 1 second
+                        var x = setInterval(function() {
+
+                            // Get todays date and time
+                            var now = new Date().getTime();
+
+                            // Find the distance between now an the count down date
+                            var distance = countDownDate3 - now;
+
+                            // Time calculations for days, hours, minutes and seconds
+                            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                            // Output the result in an element with id="demo"
+                            document.getElementById("demo3").innerHTML = days + "d " + hours + "h "
+                            + minutes + "m " + seconds + "s ";
+
+                            // If the count down is over, write some text 
+                            if (distance < 0) {
+                                clearInterval(x);
+                                document.getElementById("demo3").innerHTML = "EXPIRED";
+                            }
+                        }, 1000);
+                        </script>
+                            <a class="btn btn-full" href="https://disneyworld.disney.go.com/plan/itinerary/2017-11-16/">Resort Checkin</a>
+                        </div>
+                </div>
+                <div class="col span-2-of-3">
+                        <div class="section-resort-map">
+                            <img src="vendors/img/Port%20Orleans%20Map.gif" alt="Map of Disney Port Orleans" class="map">
+                        </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-fastpass" id="fastpass">
+            <div class="row">
+                <img src="vendors/img/Disney%20Fastpass.png" alt="Disney FastPass Logo" class="logo">
+                <h2>Use FastPass to book some of the hard to do attractions! For rules on how FastPass works click he link to the left!</h2>
+                    <div class="section-fastpass-button">
+                        <p id="demo4"></p>
+
+                        <script>
+                        // Set the date we're counting down to
+                        var countDownDate4 = new Date("Sep 17, 2017 00:00:00").getTime();
+
+                        // Update the count down every 1 second
+                        var x = setInterval(function() {
+
+                            // Get todays date and time
+                            var now = new Date().getTime();
+
+                            // Find the distance between now an the count down date
+                            var distance = countDownDate4 - now;
+
+                            // Time calculations for days, hours, minutes and seconds
+                            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                            // Output the result in an element with id="demo"
+                            document.getElementById("demo4").innerHTML = days + "d " + hours + "h "
+                            + minutes + "m " + seconds + "s ";
+
+                            // If the count down is over, write some text 
+                            if (distance < 0) {
+                                clearInterval(x);
+                                document.getElementById("demo4").innerHTML = "EXPIRED";
+                            }
+                        }, 1000);
+                        </script>
+                        <a class="btn btn-full" href="https://disneyworld.disney.go.com/fastpass-plus/select-party/date/2017-11-16/">Book FastPass</a>
+                        <a class="btn btn-full" href="http://allears.net/tp/fastpass-plus.htm">Fastpass Info</a>
+                    </div>
+            </div>    
+        </section>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="//cdn.jsdelivr.net/g/respond@1.4.2,html5shiv@3.7.3,selectivizr@1.0.3b"></script>
+        <script src="vendors/js/jquery.waypoints.min.js"></script>
+        <script src="resources/js/script.js"></script>
+    
+    </body>
+    
+</html>
