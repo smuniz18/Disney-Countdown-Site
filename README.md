@@ -4,6 +4,9 @@ Notes for Updates that need to be done:
 
 *Check all hyperlinks to make sure they all function!
 
+Navigation Bar
+  -The text needs to be moved down just a little bit, seems a bit close to the top
+
 Title Page
   -Update Dates of Travel to reflect dates 4 years from now
   
