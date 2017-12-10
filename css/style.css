@@ -234,11 +234,12 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    color: #fff;
+    text-align: center;
 }
 
 .section-flights .btn {
     margin: auto;
-
 }
 
 .section-flights img {
@@ -248,14 +249,135 @@ header {
 }
 
 .flight-text {
-    padding-top: 100px;
-    font-size: 140%;
+    padding-top: 70px;
+    font-size: 120%;
 }
 
 .column {
-    border: 2px solid black;
+    border: 2px solid goldenrod;
 }
 
 .center {
     text-align: center;
+}
+
+.section-flights .extra-info {
+    color: #e67e22;
+    font-size: 80%;
+    padding-top: 20px;
+}
+
+/* ----------------------------------------------- */
+/* MEALS */
+/* ----------------------------------------------- */
+
+.section-meals {
+    padding: 0px;
+}
+
+.section-meals .long-copy {
+    margin-bottom: 30px;
+}
+
+.section-meals {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/Chef Mickeys.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/Chef Mickeys.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+}
+
+.section-meals btn {
+    margin: auto;
+}
+
+.section-meals img {
+    display: block;
+    margin: 40px auto;
+    width: 35%;
+}
+
+.meals-text {
+    padding-top: 80px;
+    padding-bottom: 0px;
+    font-size: 140%;
+    color: #fff;
+}
+
+.section-meals .extra-info {
+    color: #e67e22;
+    font-size: 80%;
+    padding-top: 20px;
+}
+
+/* ----------------------------------------------- */
+/* RESORT */
+/* ----------------------------------------------- */
+
+.section-resort { 
+    padding: 0px;
+    background-image: url("../img/Art of Animation.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+}
+
+.section-resort img {
+    display: block;
+    margin: 40px auto;
+    width: 45%;
+}
+
+.resort-text {
+    padding-top: 60px;
+    font-size: 140%;
+    color: #555;
+}
+
+.section-resort .extra-info {
+    color: #fff;
+    font-size: 80%;
+    padding-top: 20px;
+}
+
+/* ----------------------------------------------- */
+/* FASTPASS */
+/* ----------------------------------------------- */
+
+.section-fastpass {
+    padding: 0px;
+}
+
+.section-fastpass {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/FastPass Background.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/FastPass Background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+}
+
+.section-fastpass img {
+    display: block;
+    margin: 40px auto;
+    width: 35%;
+}
+
+.fastpass-text {
+    padding-top: 80px;
+    font-size: 140%;
+    color: #fff;
+}
+
+.section-fastpass .extra-info {
+    color: #e67e22;
+    font-size: 80%;
+    padding-top: 20px;
 }
