@@ -220,6 +220,39 @@ header {
     color: #fff;
 }
 
+/* Sticky Nav */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.88);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+    font-size: 90%;
+}
+
+.sticky .main-nav {
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 16px 0;
+    color: #555;
+}
+
+.sticky .logo {
+    width: 100px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.sticky .logo-black {
+    display.block;
+}
+
 /* ----------------------------------------------- */
 /* FLIGHTS */
 /* ----------------------------------------------- */
@@ -229,7 +262,7 @@ header {
 }
 
 .section-flights { 
-    padding: 0px;
+    padding-top: 50px;
     background-image: url("../img/Plain flight Background.jpg");
     background-size: cover;
     background-position: center;
@@ -280,6 +313,7 @@ header {
 }
 
 .section-meals {
+    padding-top: 50px;
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/Chef Mickeys.jpg");
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/Chef Mickeys.jpg");
     background-size: cover;
@@ -318,7 +352,7 @@ header {
 /* ----------------------------------------------- */
 
 .section-resort { 
-    padding: 0px;
+    padding-top: 50px;
     background-image: url("../img/Art of Animation.jpg");
     background-size: cover;
     background-position: center;
@@ -350,10 +384,7 @@ header {
 /* ----------------------------------------------- */
 
 .section-fastpass {
-    padding: 0px;
-}
-
-.section-fastpass {
+    padding-top: 50px;
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/FastPass Background.jpg");
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/FastPass Background.jpg");
     background-size: cover;
