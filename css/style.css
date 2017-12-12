@@ -210,7 +210,7 @@ header {
 /* Mobile Nav */
 .mobile-nav-icon {
     float: right;
-    margin-top: 30px;
+    margin-top: 20px;
     cursor: pointer;
     display: none;
 }
@@ -263,7 +263,8 @@ header {
 
 .section-flights { 
     padding-top: 50px;
-    background-image: url("../img/Plain flight Background.jpg");
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/Plain flight Background.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/Plain flight Background.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -295,7 +296,7 @@ header {
 }
 
 .section-flights .extra-info {
-    color: #e67e22;
+    color: #fff;
     font-size: 80%;
     padding-top: 20px;
 }
@@ -353,7 +354,8 @@ header {
 
 .section-resort { 
     padding-top: 50px;
-    background-image: url("../img/Art of Animation.jpg");
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/Art of Animation.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/Art of Animation.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -370,7 +372,7 @@ header {
 .resort-text {
     padding-top: 60px;
     font-size: 140%;
-    color: #555;
+    color: #fff;
 }
 
 .section-resort .extra-info {
