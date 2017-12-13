@@ -33,7 +33,40 @@
         margin-left: 10%
     }
 
+    .flight-text,
+    .meals-text,
+    .resort-text,
+    .fastpass-text { 
+        padding-top: 50px; 
+    }
+
     .section-flights img { width: 60%; }
+
+    .section-flights h2,
+    .section-meals h2,
+    .section-resort h2,
+    .section-fastpass h2 { 
+        font-size: 95%; 
+    }
+
+    .section-flights p,
+    .section-meals p,
+    .section-resort p,
+    .section-fastpass p { 
+        font-size: 85%; 
+    }
+
+
+    .section-meals .extra-info,
+    .section-resort .extra-info { 
+        font-size: 75%;
+    }
+
+    .section-fastpass .btn {
+        font-size: 90%;
+    }
+}
+
 
 /* Small phones to small tablets: from 481px to 767px */
 @media only screen and (max-width: 767px) {
@@ -79,6 +112,8 @@
     h1 { font-size: 180%; }
     h2 { font-size: 150%; }
 }
+
+.mobile-size { font-size: 150%; }
 
 /* Small phones: from 0px to 480px */
 @media only screen and (max-width: 480px) {
