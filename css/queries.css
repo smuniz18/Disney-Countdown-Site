@@ -85,4 +85,7 @@
     section { padding: 25px 0; }
     h1 { font-size: 110%; }
 
+    header { background-size: auto; }
+    .section-meals { background-size: auto; }
+    .section-fastpass { background-size: auto; }
 }
