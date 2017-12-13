@@ -83,5 +83,5 @@
 /* Small phones: from 0px to 480px */
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
-    h1 { font-size: 130%; }
+    h1 { font-size: 120%; }
 }
