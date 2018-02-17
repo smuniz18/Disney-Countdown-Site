@@ -250,7 +250,7 @@ header {
 }
 
 .sticky .logo-black {
-    display.block;
+    display: block;
 }
 
 /* ----------------------------------------------- */
