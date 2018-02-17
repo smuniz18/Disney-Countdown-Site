@@ -117,10 +117,11 @@
     h2 { font-size: 150%; }
 }
 
-.mobile-size { font-size: 140%; }
-
 /* Small phones: from 0px to 480px */
 @media only screen and (max-width: 480px) {
+
+    .mobile-size { font-size: 140%; }
+
     section { padding: 25px 0; }
     h1 { font-size: 110%; }
 
