@@ -90,6 +90,10 @@ h2:after {
     margin-top: 30px;
 }
 
+p {
+    font-size: 115%;
+}
+
 /* ----- PARAGRAPHS ----- */
 .long-copy {
     line-height: 145%;
@@ -276,10 +280,6 @@ header {
     margin: auto;
 }
 
-.section-flights p {
-    font-size: 80%;
-}
-
 .section-flights img {
     display: block;
     margin: 40px auto;
@@ -370,7 +370,7 @@ header {
 }
 
 .section-resort p {
-    font-size: 75%; 
+    font-size: 100%;
 }
 
 .resort-text {

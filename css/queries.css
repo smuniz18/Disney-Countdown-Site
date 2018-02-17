@@ -5,8 +5,6 @@
         padding: 0 2%;
     }
 
-    p { font-size: 80% }
-
     .row { padding: 0 2%; }
 }
 
@@ -53,9 +51,12 @@
 
     .section-flights p,
     .section-meals p,
-    .section-resort p,
     .section-fastpass p { 
-        font-size: 65%; 
+        font-size: 110%; 
+    }
+
+    .section-resort p {
+        font-size: 95%;
     }
 
 
@@ -63,7 +64,7 @@
     .section-meals .extra-info,
     .section-resort .extra-info,
     .section-fastpass .extra-info { 
-        font-size: 65%;
+        font-size: 80%;
     }
 
     .section-fastpass .btn {
@@ -113,8 +114,28 @@
     .sticky .mobile-nav-icon i { margin-top: 10px; }
     .sticky .mobile-nav-icon i { color: #555; }
 
-    h1 { font-size: 180%; }
-    h2 { font-size: 150%; }
+    h1 { font-size: 150%; }
+    
+    .section-flights h2,
+    .section-meals h2,
+    .section-resort h2,
+    .section-fastpass h2 { 
+        font-size: 140%; 
+    }
+    
+    .section-flights p,
+    .section-meals p,
+    .section-resort p,
+    .section-fastpass p { 
+        font-size: 120%; 
+    }
+
+    .section-flights .extra-info,
+    .section-meals .extra-info,
+    .section-resort .extra-info,
+    .section-fastpass .extra-info { 
+        font-size: 100%;
+    }
 }
 
 /* Small phones: from 0px to 480px */
@@ -124,6 +145,27 @@
 
     section { padding: 25px 0; }
     h1 { font-size: 110%; }
+
+    .section-flights h2,
+    .section-meals h2,
+    .section-resort h2,
+    .section-fastpass h2 { 
+        font-size: 110%; 
+    }
+
+    .section-flights p,
+    .section-meals p,
+    .section-resort p,
+    .section-fastpass p { 
+        font-size: 100%; 
+    }
+
+    .section-flights .extra-info,
+    .section-meals .extra-info,
+    .section-resort .extra-info,
+    .section-fastpass .extra-info { 
+        font-size: 70%;
+    }
 
     header { background-size: auto; }
     .section-meals { background-size: auto; }
