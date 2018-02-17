@@ -5,6 +5,8 @@
         padding: 0 2%;
     }
 
+    p { font-size: 80% }
+
     .row { padding: 0 2%; }
 }
 
@@ -53,13 +55,15 @@
     .section-meals p,
     .section-resort p,
     .section-fastpass p { 
-        font-size: 85%; 
+        font-size: 65%; 
     }
 
 
+    .section-flights .extra-info,
     .section-meals .extra-info,
-    .section-resort .extra-info { 
-        font-size: 75%;
+    .section-resort .extra-info,
+    .section-fastpass .extra-info { 
+        font-size: 65%;
     }
 
     .section-fastpass .btn {

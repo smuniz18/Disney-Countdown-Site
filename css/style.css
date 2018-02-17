@@ -276,6 +276,10 @@ header {
     margin: auto;
 }
 
+.section-flights p {
+    font-size: 80%;
+}
+
 .section-flights img {
     display: block;
     margin: 40px auto;
@@ -283,7 +287,7 @@ header {
 }
 
 .flight-text {
-    padding-top: 70px;
+    padding-top: 50px;
     font-size: 120%;
 }
 
@@ -332,7 +336,7 @@ header {
 }
 
 .meals-text {
-    padding-top: 80px;
+    padding-top: 50px;
     padding-bottom: 0px;
     font-size: 140%;
     color: #fff;
@@ -365,8 +369,12 @@ header {
     width: 45%;
 }
 
+.section-resort p {
+    font-size: 75%; 
+}
+
 .resort-text {
-    padding-top: 60px;
+    padding-top: 50px;
     font-size: 140%;
     color: #fff;
 }
@@ -400,7 +408,7 @@ header {
 }
 
 .fastpass-text {
-    padding-top: 80px;
+    padding-top: 50px;
     font-size: 140%;
     color: #fff;
 }
